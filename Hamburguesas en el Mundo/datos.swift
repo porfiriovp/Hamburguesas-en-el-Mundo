@@ -57,9 +57,6 @@ class ColeccionDeHamburguesa {
         return hamburguesas[posicion]
         
     }
-    
-    
-
                         
 }
 

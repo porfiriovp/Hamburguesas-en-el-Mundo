@@ -93,6 +93,9 @@
 		C2344B111FF30C7C003FAC1A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = ITESM;
@@ -285,7 +288,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "mx.itesm.Hamburguesas-en-el-Mundo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -300,7 +303,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "mx.itesm.Hamburguesas-en-el-Mundo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

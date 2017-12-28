@@ -10,26 +10,26 @@ import UIKit
 class ViewController: UIViewController {
     
     
-    @IBOutlet weak var pais: UILabel!
+   
+
+    @IBOutlet var etiquetaPais: UILabel!
     
-    @IBOutlet weak var hamburguesa: UILabel!
+    @IBOutlet var etiquetaHamburguesas: UILabel!
     
     
     let colores = Colores ()
     let paises = ColeccionDePaises ()
     let hamburguesas = ColeccionDeHamburguesa ()
+   
+    @IBAction func regHamburguesa(_ sender: Any) {
     
-    
-    
-    
-    @IBAction func RegresaHamburguesaPais(_ sender: Any) {
-    pais.text = paises.obtenPais()
-        hamburguesa.text = hamburguesas.obtenHamburguesa()
+    etiquetaPais.text = paises.obtenPais()
+        etiquetaHamburguesas.text = hamburguesas.obtenHamburguesa()
         let colorAleatorio = colores.regresaColorAleatorio()
         view.backgroundColor = colorAleatorio
-        view.tintColor = colorAleatorio    }
+        view.tintColor = colorAleatorio
     
-    
+    }
    
 
     override func viewDidLoad() {
